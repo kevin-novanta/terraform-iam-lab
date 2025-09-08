@@ -23,5 +23,5 @@ variable "aws_profile" {
 variable "create_access_key" {
   description = "IAM Access Key For TestUser"
   type        = bool
-  default     = false
+  default     = true 
 }
